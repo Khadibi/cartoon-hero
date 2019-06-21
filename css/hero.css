@@ -1,23 +1,29 @@
 html, body {
 	font-family: serif;
-	margin: 0px
+	margin: 0px;
 }
+body {background-color: black}
 header{
 	background-color: black;
-	padding: 40px;
+	padding: 20px;
 	text-align: center;
 }
 
 h1 {font-size: 90px;
-color: #DAA520}
+color: #DAA520;
+text-shadow: 0 10px 20px #DAA520;
+padding: 0;}
 
-h2 {text-align: center}
+h2 {text-align: center;
+color: white;
+text-decoration: underline #DAA520;
+}
 
 header img{
 	border-radius: 50%;
 	width: 350px;
 	height: 350px;
-	border: 10px solid #DAA520;
+	border: 3px solid white;
 }
 .content{
 	max-width: 900px;
@@ -27,7 +33,8 @@ header img{
 img.big-image{
 	max-width: 100%;
 }
-p {text-align: center;}
+p {text-align: center;
+color: white}
 p.caption {
 	font-size: 16px;
 	font-style: italic;
@@ -37,6 +44,7 @@ ul{
 	padding: 0
 	margin: 0;
 	text-align: center;
+	color: white;
 }
 a{color:#DAA520;
 text-decoration: none;}
@@ -48,4 +56,5 @@ footer{
 }
 footer ul li{
 	display: inline;
+	color: white;
 }
