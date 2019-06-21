@@ -1,0 +1,51 @@
+html, body {
+	font-family: serif;
+	margin: 0px
+}
+header{
+	background-color: black;
+	padding: 40px;
+	text-align: center;
+}
+
+h1 {font-size: 90px;
+color: #DAA520}
+
+h2 {text-align: center}
+
+header img{
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	border: 10px solid #DAA520;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+img.big-image{
+	max-width: 100%;
+}
+p {text-align: center;}
+p.caption {
+	font-size: 16px;
+	font-style: italic;
+}
+ul{
+	list-style: none;
+	padding: 0
+	margin: 0;
+	text-align: center;
+}
+a{color:#DAA520;
+text-decoration: none;}
+
+footer{
+	background-color: black;
+	color: grey;
+	text-align: center;
+}
+footer ul li{
+	display: inline;
+}
